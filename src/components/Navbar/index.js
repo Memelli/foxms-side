@@ -7,7 +7,7 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo top="/">
+                    <NavLogo to="/">
                         memelli.
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -27,7 +27,7 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="sobre">Sobre</NavLinks>
                         </NavItem>
                         <NavBtn>
-                            <NavBtnLink to="/entrar">Painel</NavBtnLink>
+                            <NavBtnLink to="/painel">Painel</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>
