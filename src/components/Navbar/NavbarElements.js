@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
+import { FaCannabis } from 'react-icons/fa'
 
 export const Nav = styled.nav`
     background: #000;
@@ -114,4 +115,8 @@ export const NavBtnLink = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: #FFF;
     }
+`
+
+export const IconLogo = styled(FaCannabis)`
+    color: red;
 `

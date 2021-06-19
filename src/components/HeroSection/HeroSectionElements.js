@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
-import { FaCannabis } from 'react-icons/fa'
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -101,7 +100,3 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px; 
 `;
-
-export const IconLogo = styled(FaCannabis)`
-    color: red;
-`
